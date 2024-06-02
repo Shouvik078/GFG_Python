@@ -1,0 +1,11 @@
+def small_check(lst,x):
+    sml=[]
+    for i in lst:
+        if i<x:
+            sml.append(i)
+    return sml
+
+if __name__=='__main__':
+    lst=[8,100,20,20,3,7]
+    x=10
+    print("Smaller than ",x," present are :",small_check(lst,x))
