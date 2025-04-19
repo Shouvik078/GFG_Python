@@ -34,3 +34,5 @@ d[108]='Insert'
 # to get last inserted value 
 print(d.popitem())
 
+
+
